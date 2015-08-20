@@ -35,7 +35,7 @@
     "eslint-loader": "^1.0.0",
     "eslint-plugin-react": "^3.2.2",
     "gaze": "^0.5.1",
-    "git-push": "^0.1.1",
+    "git-push": "elesant/git-push",
     "glob": "^5.0.14",
     "jest-cli": "^0.4.18",
     "mkdirp": "^0.5.1",
@@ -69,6 +69,7 @@
     "bundle": "babel-node --eval \"require('./tools/bundle')().catch(err => console.log(err.stack))\"",
     "build": "babel-node --eval \"require('./tools/build')().catch(err => console.log(err.stack))\"",
     "serve": "babel-node --eval \"require('./tools/serve')().catch(err => console.log(err.stack))\"",
-    "start": "babel-node --eval \"require('./tools/start')().catch(err => console.log(err.stack))\""
+    "start": "babel-node --eval \"require('./tools/start')().catch(err => console.log(err.stack))\"",
+    "deploy": "babel-node --eval \"require('./tools/deploy')().catch(err => console.log(err.stack))\""
   }
 }
